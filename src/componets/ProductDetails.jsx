@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 
 const ProductDetails = () => {
+    // receving data from redux
   const sliceData = useSelector((state) => state.counter.value);
 
   return (
